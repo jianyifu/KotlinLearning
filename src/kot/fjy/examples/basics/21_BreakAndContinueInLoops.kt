@@ -1,4 +1,4 @@
-package kot.fjy.examples
+package kot.fjy.examples.basics
 
 /**
  * Created by fujianyi on 2017/7/12.

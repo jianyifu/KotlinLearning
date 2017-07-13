@@ -1,4 +1,4 @@
-package kot.fjy.examples
+package kot.fjy.examples.basics
 
 import kotlin.test.todo
 //Functions can have generic parameters which are specified using angle brackets before the function name

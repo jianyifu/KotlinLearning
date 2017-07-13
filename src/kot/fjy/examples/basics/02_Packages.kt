@@ -1,4 +1,4 @@
-package kot.fjy.examples
+package kot.fjy.examples.basics
 //package specification should be at the top of the source file:
 /**
  * Created by fujia on 2017/7/11.

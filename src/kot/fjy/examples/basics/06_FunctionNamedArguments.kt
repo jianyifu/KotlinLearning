@@ -1,4 +1,4 @@
-package kot.fjy.examples
+package kot.fjy.examples.basics
 
 /**
  * Created by fujia on 2017/7/11.
@@ -25,6 +25,6 @@ fun main(args: Array<String>) {
             wordSeparator = '_'
     )
     reformat(str, wordSeparator = '_')
-    reformat(str, divideByCamelHumps =true)
+    reformat(str, divideByCamelHumps = true)
 }
 

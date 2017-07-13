@@ -1,4 +1,4 @@
-package kot.fjy.examples
+package kot.fjy.examples.basics
 
 /**
  * Created by fujia on 2017/7/11.
@@ -33,10 +33,10 @@ fun <T> myListAndLastElement(vararg ts: T,last: (array:List<T>) -> T): Map<List<
 fun main(args: Array<String>) {
     val list = myList(1, 2, 3)
     val list1 = myListAndLen(1, 2, 3)
-    val list2 = myListAndLen(1, 2, 3,4,len = 4)
+    val list2 = myListAndLen(1, 2, 3, 4, len = 4)
 
     val a = arrayOf(1, 2, 3,4,5)
-    val list3 = myListAndLastElement(*a){it->it[it.size-1]}
+    val list3 = myListAndLastElement(*a) { it -> it[it.size - 1] }
     println(list)
     println(list1)
     println(list2)
